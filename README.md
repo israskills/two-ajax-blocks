@@ -22,8 +22,8 @@
 - добовление заголовков и папок для html и css
 
 
-git init
 git add .
-git commit -m "добовление вложеностей заголовков и вертикальнбого скрольинга"
-gh repo create
+git commit -m "XXXXXXXXXXXXXXX"
+git push
+
 
