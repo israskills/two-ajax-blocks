@@ -1,0 +1,393 @@
+{
+  "What can JavaScript do?": [
+    "JavaScript can change HTML content",
+    "JavaScript can change HTML attributes",
+    "JavaScript can change CSS style",
+    "JavaScript can hide HTML elements",
+    "JavaScript can show hidden HTML elements"
+  ],
+  "Where to Insert JavaScript": [
+    "JavaScript in <head>",
+    "JavaScript in <body>",
+    "JavaScript in an external file",
+    "JavaScript in an external url",
+    "JavaScript in an external folder"
+  ],
+  "JavaScript Output": [
+    "Writing into the HTML output",
+    "Writing into an HTML element",
+    "Writing into an window alert box",
+    "Writing into the browser console"
+  ],
+  "JavaScript Syntax": [
+    "JavaScript statements",
+    "JavaScript numbers",
+    "JavaScript strings",
+    "JavaScript variables",
+    "JavaScript operators",
+    "JavaScript assignment",
+    "JavaScript expressions (using constants)",
+    "JavaScript expressions (using strings)",
+    "JavaScript expressions (using variables)",
+    "JavaScript keywords",
+    "JavaScript comments",
+    "JavaScript is case sensitive"
+  ],
+  "JavaScript Statements": [
+    "JavaScript statements are commands to the browser",
+    "JavaScript code is a sequence of statements",
+    "JavaScript statements are separated with semicolon",
+    "Multiple statement on one line is allowed",
+    "JavaScript statements can be grouped together in code blocks",
+    "You can break a code line after an operator or a comma."
+  ],
+  "JavaScript Comments": [
+    "Single line comments",
+    "Single line comments at the end of a line",
+    "Multiple lines comments",
+    "Single line comment to prevent execution",
+    "Multiple lines comment to prevent execution"
+  ],
+  "JavaScript Variables": [
+    "JavaScript variables",
+    "JavaScript variables as algebra",
+    "JavaScript numbers and strings",
+    "JavaScript var keyword.",
+    "Declaring many variables in one statement",
+    "Declaring many variables multiline",
+    "A variable without a value returns the value undefined",
+    "Re-declaring a variable will not destroy the value",
+    "Adding JavaScript numbers",
+    "Adding JavaScript strings",
+    "Adding strings and numbers"
+  ],
+  "JavaScript Arithmetic": [
+    "The addition (+) operator",
+    "The subtraction (-) operator",
+    "The multiplication (*) operator",
+    "The division (/) operator",
+    "The modulus (%) operator",
+    "The increment (++) operator",
+    "The decrement (--) operator"
+  ],
+  "JavaScript Assignment": [
+    "The = assignment operator",
+    "The += assignment operator",
+    "The -= assignment operator",
+    "The *= assignment operator",
+    "The /= assignment operator",
+    "The %= assignment operator"
+  ],
+  "JavaScript String Concatenation": [
+    "Adding two strings together using the concatenating (+) operator",
+    "Adding two strings together with a space in the first string",
+    "Adding two strings together with a space in between",
+    "Adding two strings together using using the += operator",
+    "Adding strings and numbers"
+  ],
+  "JavaScript Data Types": [
+    "Declare (create) strings",
+    "Declare (create) numbers",
+    "Declare (create) an array",
+    "Declare (create) an object",
+    "Find the type of a variable",
+    "Adding two numbers and a string",
+    "Adding a string and two numbers",
+    "An undefined variable",
+    "An empty variable"
+  ],
+  "JavaScript Objects": [
+    "Create a JavaScript variable",
+    "Create a JavaScript object",
+    "Create a person object (single line)",
+    "Create a person object (multiple lines)",
+    "Access object properties using .property",
+    "Access object properties using [property]",
+    "Access a function property as a method",
+    "Access a function property as a property"
+  ],
+  "JavaScript Functions": [
+    "A simple function",
+    "A function with an argument",
+    "A function with an argument 2",
+    "A function that returns a value",
+    "A function that converts Fahrenheit to Celsius",
+    "A function call without ()"
+  ],
+  "JavaScript Events": [
+    "An onclick event changes an HTML element",
+    "An onclick event changes its own element",
+    "An onclick event calls a function"
+  ],
+  "JavaScript Strings": [
+    "Strings can be written with single or double quotes.",
+    "Show some string examples",
+    "Backslash before quotes accepts quotes as quotes.",
+    "Find the length of a string",
+    "You can break text string with a backslash.",
+    "You cannot break code with a backslash.",
+    "Find the position of the first occurrence of a text\nin a string - indexOf()",
+    "Search for a text in a string and return the text if found\n- match()",
+    "Replace characters in a string - replace()",
+    "Convert string to upper case - toUpperCase()",
+    "Convert string to lower case - toLowerCase()",
+    "Split a string into an array - split()"
+  ],
+  "JavaScript Numbers": [
+    "Numbers can be written with or without decimals",
+    "Extra large or extra small numbers can be written with exponent notation",
+    "Number are considered accurate only up to 15 digits",
+    "Floating point arithmetic is not always 100% accurate",
+    "But it helps to multiply and divide by 10",
+    "Adding two numbers results in a new number",
+    "Adding two numeric strings results in a concatenated string",
+    "Adding a number and a numeric string also results in a concatenated string",
+    "Adding a numeric string and a number also results in a concatenated string",
+    "Common mistake when adding strings and numbers 1",
+    "Common mistake when adding strings and numbers 2",
+    "JavaScript will try to convert strings to numbers when dividing",
+    "JavaScript will try to convert strings to numbers when multiplying",
+    "JavaScript will try to convert strings to numbers when subtracting",
+    "JavaScript will NOT convert strings to numbers when adding",
+    "A number divided by a string is NaN (Not a Number)",
+    "A number divided by a numeric string is a number",
+    "The global JavaScript function isNaN() returns if a value is a number",
+    "Using NaN in a mathematical operation will always return NaN",
+    "Using NaN in a mathematical string operation will concatenate NaN",
+    "NaN (Not a Number) is a number (Yes! typeof NaN returns number)",
+    "Infinity is returned if you calculate a number outside the largest possible number",
+    "Division by zero also generates Infinity",
+    "Infinity is a number (typeof Infinity returns number)",
+    "Constants, preceded by 0x, are interpreted as hexadecimal",
+    "The toString() method can output numbers as hex, octal, and binary",
+    "Numbers can be objects",
+    "Numbers and objects cannot be safely compared",
+    "Objects and objects cannot be safely compared"
+  ],
+  "JavaScript Number Methods": [
+    "The toString() method converts a number to a string",
+    "The valueOf() method returns a number as a number",
+    "The toExponential() returns a number with exponential notation",
+    "The toFixed() method rounds a number to a number of digits",
+    "The toPrecision() method a number written with a specified length",
+    "The global method Number() converts variables to numbers",
+    "The global method Number() can even convert dates to numbers",
+    "The global method parseInt() converts strings to numbers",
+    "The global method parseFloat() converts strings to numbers",
+    "MAX_VALUE returns the largest possible number in JavaScript",
+    "MIN_VALUE returns the smallest possible number in JavaScript",
+    "POSITIVE_INFINITY represents infinity",
+    "POSITIVE_INFINITY is returned on overflow",
+    "NEGATIVE_INFINITY represents negative infinity",
+    "NEGATIVE_INFINITY is returned on overflow",
+    "NaN Represents \"Not-a-Number\"",
+    "Arithmetic performed on a string will result in NaN",
+    "Using a Number property on a variable will return undefined"
+  ],
+  "JavaScript Maths": [
+    "Math.PI returns the value of PI",
+    "Math.round(x) returns the rounded value of x",
+    "Math.pow(x, y) returns the value of x to the power of y",
+    "Math.sqrt(x) returns the square root of x",
+    "Math.abs(x) returns the absolute (positive) value of x",
+    "Math.ceil(x) returns the value of x rounded up",
+    "Math.floor(x) returns the value of x rounded down",
+    "Math.sin(x) returns the sin of the angle x (given in radians)",
+    "Math.cos(x) returns the cosin of the angle x (given in radians)",
+    "Math.max() return the number with the highest value from a list of arguments",
+    "Math.min() to return the number with the lowest value from a list of arguments",
+    "Converting Celsius to Fahrenheit"
+  ],
+  "JavaScript Random": [
+    "Math.random() returns a random number between 0 (included) and 1 (excluded)",
+    "How to return a random integer between 0 and 9 (both included)",
+    "How to return a random integer between 0 and 10 (both included)",
+    "How to return a random integer between 0 and 99 (both included)",
+    "How to return a random integer between 0 and 100 (both included)",
+    "How to return a random integer between 1 and 10 (both included)",
+    "How to return a random integer between 1 and 100 (both included)",
+    "How to return a random integer between x (included) and y (excluded)",
+    "How to return a random integer between x and y (both included)"
+  ],
+  "JavaScript Dates": [
+    "Use Date() to display today's date and time",
+    "Use getFullYear() display the year",
+    "Use getTime() to calculate the number of milliseconds since 1970",
+    "Use setFullYear() to set a specific date",
+    "Use toUTCString() to convert today's date (according to UTC) to a string",
+    "Use getDay() to display the weekday as a number",
+    "Use getDay() and an array to display the weekday as a name",
+    "Display a clock"
+  ],
+  "JavaScript Arrays": [
+    "Create an array I",
+    "Create an array II",
+    "Access an array element",
+    "Change an array element",
+    "Access a full array",
+    "Find the length of an array",
+    "Loop through an array",
+    "Add an element to an array",
+    "Add undefined \"holes\" to an array",
+    "How to \nrecognize an array I",
+    "How to \nrecognize an array II"
+  ],
+  "JavaScript Array Methods": [
+    "Add an element to an array",
+    "Remove the last element of an array - pop()",
+    "Join all elements of an array into a string - join()",
+    "Join two arrays - concat()",
+    "Join three arrays - concat()",
+    "Add an element to position 2 in an array - splice()",
+    "Convert an array to a string - toString()",
+    "Add new elements to the beginning of an array - unshift()",
+    "Remove the first element of an array - shift()",
+    "Select elements from an array - slice()"
+  ],
+  "JavaScript Array Sort": [
+    "Sort an array in ascending order",
+    "Sort an array in descending order",
+    "Sort an array of numbers ascending",
+    "Sort an array of numbers descending",
+    "Sort numbers (alphabetically or numerically)",
+    "Sort array numbers in random order",
+    "Find the lowest number in an array",
+    "Find the highest number in an array",
+    "Find the lowest number in an array using Math.min()",
+    "Find the highest number in an array using Math.max()",
+    "Using a \"homemade\" myArrayMin method",
+    "Using a \"homemade\" myArrayMax method",
+    "Sort objects by numeric properties",
+    "Sort objects by string properties"
+  ],
+  "JavaScript Array Iteration": [
+    "Array.forEach()",
+    "Array.map()",
+    "Array.filter()",
+    "Array.reduce()",
+    "Array.reduceRight()",
+    "Array.every()",
+    "Array.some()",
+    "Array.indexOf()",
+    "Array.lastIndexOf()",
+    "Array.find()",
+    "Array.findIndex()"
+  ],
+  "JavaScript Type Conversion": [
+    "Display the typeof all variable types",
+    "Display the constructor of all variable types",
+    "Convert a number to a string using String()",
+    "Convert a number to a string using toString()",
+    "Find out if a variable is an array",
+    "Find out if a variable is a date"
+  ],
+  "JavaScript Booleans": [
+    "Display the value of Boolean(10 > 9)",
+    "Display the value of 10 > 9",
+    "Everything with a real value is true",
+    "The Boolean value of zero is false",
+    "The Boolean value of minus zero is false",
+    "The Boolean value of an empty string is false",
+    "The Boolean value of undefined is false",
+    "The Boolean value of null is false",
+    "The Boolean value of false is false",
+    "The Boolean value of NaN is false"
+  ],
+  "JavaScript Comparisons": [
+    "Assign 5 to x, and display the value of (x == 8)",
+    "Assign 5 to x, and display the value of (x == 5)",
+    "Assign 5 to x, and display the value of (x === 5)",
+    "Assign 5 to x, and display the value of (x === \"5\")",
+    "Assign 5 to x, and display the value of (x != 8)",
+    "Assign 5 to x, and display the value of (x !== 5)",
+    "Assign 5 to x, and display the value of (x !== \"5\")",
+    "Assign 5 to x, and display the value of (x > 8)",
+    "Assign 5 to x, and display the value of (x < 8)",
+    "Assign 5 to x, and display the value of (x >= 8)",
+    "Assign 5 to x, and display the value of (x <= 8)"
+  ],
+  "JavaScript Conditionals": [
+    "The if statement",
+    "The else statement",
+    "The else if statement",
+    "Random link",
+    "Switch statement"
+  ],
+  "JavaScript Loops": [
+    "For loop",
+    "Looping an Array",
+    "Looping through HTML headers",
+    "While loop",
+    "Do While loop",
+    "Break a loop",
+    "Break and continue a loop",
+    "Use a for...in statement to loop through the elements of an \nobject"
+  ],
+  "JavaScript Error Handling": [
+    "The try...catch statement",
+    "The try...catch statement with a confirm box",
+    "The onerror event"
+  ],
+  "JavaScript Regular Expressions": [
+    "Search for an expression in a string",
+    "Search for an expression and replace it"
+  ],
+  "JavaScript Object Properties": [
+    "Accessing properties using .property",
+    "Accessing properties using [property]",
+    "Accessing properties using for in",
+    "Adding new properties to existing objects",
+    "Deleting properties from objects"
+  ],
+  "JSON Objects": [
+    "Accessing properties using .property",
+    "Accessing properties using [property]",
+    "Looping through properties",
+    "Looping through property values",
+    "Access nested JSON objects",
+    "Modify values using the dot notation",
+    "Modify values using the bracket notation",
+    "Delete object properties"
+  ],
+  "JSON Arrays": [
+    "Accessing array values",
+    "Looping through an array using for-in",
+    "Looping through an array using for",
+    "Access nested JSON arrays",
+    "Modify array values",
+    "Delete array items"
+  ],
+  "JSON Parse": [
+    "Use JSON parse",
+    "Using JSON parse in an AJAX example",
+    "Using JSON parse on an array",
+    "Parsing dates",
+    "Parsing dates using the reviver function",
+    "Parsing functions"
+  ],
+  "JSON Stringify": [
+    "Use JSON stringify",
+    "Using JSON stringify on an array",
+    "Stringify dates",
+    "Stringify functions",
+    "Stringify functions using the toString() method"
+  ],
+  "JSON PHP": [
+    "Get JSON from a php file",
+    "Get JSON array from php",
+    "Get JSON from a database",
+    "Loop through the result from a database",
+    "Send JSON using POST method"
+  ],
+  "JSON HTML": [
+    "Make an HTML table based on JSON data",
+    "Make a dynamic HTML Table",
+    "Make an HTML drop down list based on JSON data"
+  ],
+  "JSON JSONP": [
+    "Simple JSONP example",
+    "Create a dynamic script tag",
+    "JSONP example with dynamic result",
+    "JSONP example with a callback function"
+  ]
+}

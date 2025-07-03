@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript can change HTML content</title>
+
+    <!--  Style of the page -->
+    <style>
+        .red-border {
+            border: 1px solid red;
+            padding: 20px;
+            margin: 20px;
+        }
+    </style>
+    <!--  End of the style -->
+
+</head>
+<body>
+
+    <!--  Content of the page -->
+    <div class="red-border">
+        <h2>JavaScript can change HTML content</h2>
+        <p id="demo">JavaScript can hide HTML elements.</p>
+
+        <button type="button" onclick="document.getElementById('demo').style.display='none'">Click Me!</button>
+    </div>
+    <!--  End of the page -->
+    
+
+</body>
+</html>

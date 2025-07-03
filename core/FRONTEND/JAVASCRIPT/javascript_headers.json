@@ -1,0 +1,1488 @@
+[
+  {
+    "header": "What can JavaScript do?",
+    "folder": "what-can-javascript-do-question",
+    "children": [
+      {
+        "header": "JavaScript can change HTML content",
+        "folder": "javascript-can-change-html-content"
+      },
+      {
+        "header": "JavaScript can change HTML attributes",
+        "folder": "javascript-can-change-html-attributes"
+      },
+      {
+        "header": "JavaScript can change CSS style",
+        "folder": "javascript-can-change-css-style"
+      },
+      {
+        "header": "JavaScript can hide HTML elements",
+        "folder": "javascript-can-hide-html-elements"
+      },
+      {
+        "header": "JavaScript can show hidden HTML elements",
+        "folder": "javascript-can-show-hidden-html-elements"
+      }
+    ]
+  },
+  {
+    "header": "Where to Insert JavaScript",
+    "folder": "where-to-insert-javascript",
+    "children": [
+      {
+        "header": "JavaScript in <head>",
+        "folder": "javascript-in-less-than-head-greater-than"
+      },
+      {
+        "header": "JavaScript in <body>",
+        "folder": "javascript-in-less-than-body-greater-than"
+      },
+      {
+        "header": "JavaScript in an external file",
+        "folder": "javascript-in-an-external-file"
+      },
+      {
+        "header": "JavaScript in an external url",
+        "folder": "javascript-in-an-external-url"
+      },
+      {
+        "header": "JavaScript in an external folder",
+        "folder": "javascript-in-an-external-folder"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Output",
+    "folder": "javascript-output",
+    "children": [
+      {
+        "header": "Writing into the HTML output",
+        "folder": "writing-into-the-html-output"
+      },
+      {
+        "header": "Writing into an HTML element",
+        "folder": "writing-into-an-html-element"
+      },
+      {
+        "header": "Writing into an window alert box",
+        "folder": "writing-into-an-window-alert-box"
+      },
+      {
+        "header": "Writing into the browser console",
+        "folder": "writing-into-the-browser-console"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Syntax",
+    "folder": "javascript-syntax",
+    "children": [
+      {
+        "header": "JavaScript statements",
+        "folder": "javascript-statements"
+      },
+      {
+        "header": "JavaScript numbers",
+        "folder": "javascript-numbers"
+      },
+      {
+        "header": "JavaScript strings",
+        "folder": "javascript-strings"
+      },
+      {
+        "header": "JavaScript variables",
+        "folder": "javascript-variables"
+      },
+      {
+        "header": "JavaScript operators",
+        "folder": "javascript-operators"
+      },
+      {
+        "header": "JavaScript assignment",
+        "folder": "javascript-assignment"
+      },
+      {
+        "header": "JavaScript expressions (using constants)",
+        "folder": "javascript-expressions-using-constants"
+      },
+      {
+        "header": "JavaScript expressions (using strings)",
+        "folder": "javascript-expressions-using-strings"
+      },
+      {
+        "header": "JavaScript expressions (using variables)",
+        "folder": "javascript-expressions-using-variables"
+      },
+      {
+        "header": "JavaScript keywords",
+        "folder": "javascript-keywords"
+      },
+      {
+        "header": "JavaScript comments",
+        "folder": "javascript-comments"
+      },
+      {
+        "header": "JavaScript is case sensitive",
+        "folder": "javascript-is-case-sensitive"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Statements",
+    "folder": "javascript-statements",
+    "children": [
+      {
+        "header": "JavaScript statements are commands to the browser",
+        "folder": "javascript-statements-are-commands-to-the-browser"
+      },
+      {
+        "header": "JavaScript code is a sequence of statements",
+        "folder": "javascript-code-is-a-sequence-of-statements"
+      },
+      {
+        "header": "JavaScript statements are separated with semicolon",
+        "folder": "javascript-statements-are-separated-with-semicolon"
+      },
+      {
+        "header": "Multiple statement on one line is allowed",
+        "folder": "multiple-statement-on-one-line-is-allowed"
+      },
+      {
+        "header": "JavaScript statements can be grouped together in code blocks",
+        "folder": "javascript-statements-can-be-grouped-together-in-code-blocks"
+      },
+      {
+        "header": "You can break a code line after an operator or a comma.",
+        "folder": "you-can-break-a-code-line-after-an-operator-or-a-comma-dot"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Comments",
+    "folder": "javascript-comments",
+    "children": [
+      {
+        "header": "Single line comments",
+        "folder": "single-line-comments"
+      },
+      {
+        "header": "Single line comments at the end of a line",
+        "folder": "single-line-comments-at-the-end-of-a-line"
+      },
+      {
+        "header": "Multiple lines comments",
+        "folder": "multiple-lines-comments"
+      },
+      {
+        "header": "Single line comment to prevent execution",
+        "folder": "single-line-comment-to-prevent-execution"
+      },
+      {
+        "header": "Multiple lines comment to prevent execution",
+        "folder": "multiple-lines-comment-to-prevent-execution"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Variables",
+    "folder": "javascript-variables",
+    "children": [
+      {
+        "header": "JavaScript variables",
+        "folder": "javascript-variables"
+      },
+      {
+        "header": "JavaScript variables as algebra",
+        "folder": "javascript-variables-as-algebra"
+      },
+      {
+        "header": "JavaScript numbers and strings",
+        "folder": "javascript-numbers-and-strings"
+      },
+      {
+        "header": "JavaScript var keyword.",
+        "folder": "javascript-var-keyword-dot"
+      },
+      {
+        "header": "Declaring many variables in one statement",
+        "folder": "declaring-many-variables-in-one-statement"
+      },
+      {
+        "header": "Declaring many variables multiline",
+        "folder": "declaring-many-variables-multiline"
+      },
+      {
+        "header": "A variable without a value returns the value undefined",
+        "folder": "a-variable-without-a-value-returns-the-value-undefined"
+      },
+      {
+        "header": "Re-declaring a variable will not destroy the value",
+        "folder": "re-minus-declaring-a-variable-will-not-destroy-the-value"
+      },
+      {
+        "header": "Adding JavaScript numbers",
+        "folder": "adding-javascript-numbers"
+      },
+      {
+        "header": "Adding JavaScript strings",
+        "folder": "adding-javascript-strings"
+      },
+      {
+        "header": "Adding strings and numbers",
+        "folder": "adding-strings-and-numbers"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Arithmetic",
+    "folder": "javascript-arithmetic",
+    "children": [
+      {
+        "header": "The addition (+) operator",
+        "folder": "the-addition-plus-operator"
+      },
+      {
+        "header": "The subtraction (-) operator",
+        "folder": "the-subtraction-minus-operator"
+      },
+      {
+        "header": "The multiplication (*) operator",
+        "folder": "the-multiplication-times-operator"
+      },
+      {
+        "header": "The division (/) operator",
+        "folder": "the-division-divided-by-operator"
+      },
+      {
+        "header": "The modulus (%) operator",
+        "folder": "the-modulus-mod-operator"
+      },
+      {
+        "header": "The increment (++) operator",
+        "folder": "the-increment-plus-plus-operator"
+      },
+      {
+        "header": "The decrement (--) operator",
+        "folder": "the-decrement-minus-minus-operator"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Assignment",
+    "folder": "javascript-assignment",
+    "children": [
+      {
+        "header": "The = assignment operator",
+        "folder": "the-equals-assignment-operator"
+      },
+      {
+        "header": "The += assignment operator",
+        "folder": "the-plus-equals-assignment-operator"
+      },
+      {
+        "header": "The -= assignment operator",
+        "folder": "the-minus-equals-assignment-operator"
+      },
+      {
+        "header": "The *= assignment operator",
+        "folder": "the-times-equals-assignment-operator"
+      },
+      {
+        "header": "The /= assignment operator",
+        "folder": "the-divided-by-equals-assignment-operator"
+      },
+      {
+        "header": "The %= assignment operator",
+        "folder": "the-mod-equals-assignment-operator"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript String Concatenation",
+    "folder": "javascript-string-concatenation",
+    "children": [
+      {
+        "header": "Adding two strings together using the concatenating (+) operator",
+        "folder": "adding-two-strings-together-using-the-concatenating-plus-operator"
+      },
+      {
+        "header": "Adding two strings together with a space in the first string",
+        "folder": "adding-two-strings-together-with-a-space-in-the-first-string"
+      },
+      {
+        "header": "Adding two strings together with a space in between",
+        "folder": "adding-two-strings-together-with-a-space-in-between"
+      },
+      {
+        "header": "Adding two strings together using using the += operator",
+        "folder": "adding-two-strings-together-using-using-the-plus-equals-operator"
+      },
+      {
+        "header": "Adding strings and numbers",
+        "folder": "adding-strings-and-numbers"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Data Types",
+    "folder": "javascript-data-types",
+    "children": [
+      {
+        "header": "Declare (create) strings",
+        "folder": "declare-create-strings"
+      },
+      {
+        "header": "Declare (create) numbers",
+        "folder": "declare-create-numbers"
+      },
+      {
+        "header": "Declare (create) an array",
+        "folder": "declare-create-an-array"
+      },
+      {
+        "header": "Declare (create) an object",
+        "folder": "declare-create-an-object"
+      },
+      {
+        "header": "Find the type of a variable",
+        "folder": "find-the-type-of-a-variable"
+      },
+      {
+        "header": "Adding two numbers and a string",
+        "folder": "adding-two-numbers-and-a-string"
+      },
+      {
+        "header": "Adding a string and two numbers",
+        "folder": "adding-a-string-and-two-numbers"
+      },
+      {
+        "header": "An undefined variable",
+        "folder": "an-undefined-variable"
+      },
+      {
+        "header": "An empty variable",
+        "folder": "an-empty-variable"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Objects",
+    "folder": "javascript-objects",
+    "children": [
+      {
+        "header": "Create a JavaScript variable",
+        "folder": "create-a-javascript-variable"
+      },
+      {
+        "header": "Create a JavaScript object",
+        "folder": "create-a-javascript-object"
+      },
+      {
+        "header": "Create a person object (single line)",
+        "folder": "create-a-person-object-single-line"
+      },
+      {
+        "header": "Create a person object (multiple lines)",
+        "folder": "create-a-person-object-multiple-lines"
+      },
+      {
+        "header": "Access object properties using .property",
+        "folder": "access-object-properties-using-dot-property"
+      },
+      {
+        "header": "Access object properties using [property]",
+        "folder": "access-object-properties-using-property"
+      },
+      {
+        "header": "Access a function property as a method",
+        "folder": "access-a-function-property-as-a-method"
+      },
+      {
+        "header": "Access a function property as a property",
+        "folder": "access-a-function-property-as-a-property"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Functions",
+    "folder": "javascript-functions",
+    "children": [
+      {
+        "header": "A simple function",
+        "folder": "a-simple-function"
+      },
+      {
+        "header": "A function with an argument",
+        "folder": "a-function-with-an-argument"
+      },
+      {
+        "header": "A function with an argument 2",
+        "folder": "a-function-with-an-argument-2"
+      },
+      {
+        "header": "A function that returns a value",
+        "folder": "a-function-that-returns-a-value"
+      },
+      {
+        "header": "A function that converts Fahrenheit to Celsius",
+        "folder": "a-function-that-converts-fahrenheit-to-celsius"
+      },
+      {
+        "header": "A function call without ()",
+        "folder": "a-function-call-without"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Events",
+    "folder": "javascript-events",
+    "children": [
+      {
+        "header": "An onclick event changes an HTML element",
+        "folder": "an-onclick-event-changes-an-html-element"
+      },
+      {
+        "header": "An onclick event changes its own element",
+        "folder": "an-onclick-event-changes-its-own-element"
+      },
+      {
+        "header": "An onclick event calls a function",
+        "folder": "an-onclick-event-calls-a-function"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Strings",
+    "folder": "javascript-strings",
+    "children": [
+      {
+        "header": "Strings can be written with single or double quotes.",
+        "folder": "strings-can-be-written-with-single-or-double-quotes-dot"
+      },
+      {
+        "header": "Show some string examples",
+        "folder": "show-some-string-examples"
+      },
+      {
+        "header": "Backslash before quotes accepts quotes as quotes.",
+        "folder": "backslash-before-quotes-accepts-quotes-as-quotes-dot"
+      },
+      {
+        "header": "Find the length of a string",
+        "folder": "find-the-length-of-a-string"
+      },
+      {
+        "header": "You can break text string with a backslash.",
+        "folder": "you-can-break-text-string-with-a-backslash-dot"
+      },
+      {
+        "header": "You cannot break code with a backslash.",
+        "folder": "you-cannot-break-code-with-a-backslash-dot"
+      },
+      {
+        "header": "Find the position of the first occurrence of a text\nin a string - indexOf()",
+        "folder": "find-the-position-of-the-first-occurrence-of-a-text-in-a-string-minus-indexof"
+      },
+      {
+        "header": "Search for a text in a string and return the text if found\n- match()",
+        "folder": "search-for-a-text-in-a-string-and-return-the-text-if-found-minus-match"
+      },
+      {
+        "header": "Replace characters in a string - replace()",
+        "folder": "replace-characters-in-a-string-minus-replace"
+      },
+      {
+        "header": "Convert string to upper case - toUpperCase()",
+        "folder": "convert-string-to-upper-case-minus-touppercase"
+      },
+      {
+        "header": "Convert string to lower case - toLowerCase()",
+        "folder": "convert-string-to-lower-case-minus-tolowercase"
+      },
+      {
+        "header": "Split a string into an array - split()",
+        "folder": "split-a-string-into-an-array-minus-split"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Numbers",
+    "folder": "javascript-numbers",
+    "children": [
+      {
+        "header": "Numbers can be written with or without decimals",
+        "folder": "numbers-can-be-written-with-or-without-decimals"
+      },
+      {
+        "header": "Extra large or extra small numbers can be written with exponent notation",
+        "folder": "extra-large-or-extra-small-numbers-can-be-written-with-exponent-notation"
+      },
+      {
+        "header": "Number are considered accurate only up to 15 digits",
+        "folder": "number-are-considered-accurate-only-up-to-15-digits"
+      },
+      {
+        "header": "Floating point arithmetic is not always 100% accurate",
+        "folder": "floating-point-arithmetic-is-not-always-100-mod-accurate"
+      },
+      {
+        "header": "But it helps to multiply and divide by 10",
+        "folder": "but-it-helps-to-multiply-and-divide-by-10"
+      },
+      {
+        "header": "Adding two numbers results in a new number",
+        "folder": "adding-two-numbers-results-in-a-new-number"
+      },
+      {
+        "header": "Adding two numeric strings results in a concatenated string",
+        "folder": "adding-two-numeric-strings-results-in-a-concatenated-string"
+      },
+      {
+        "header": "Adding a number and a numeric string also results in a concatenated string",
+        "folder": "adding-a-number-and-a-numeric-string-also-results-in-a-concatenated-string"
+      },
+      {
+        "header": "Adding a numeric string and a number also results in a concatenated string",
+        "folder": "adding-a-numeric-string-and-a-number-also-results-in-a-concatenated-string"
+      },
+      {
+        "header": "Common mistake when adding strings and numbers 1",
+        "folder": "common-mistake-when-adding-strings-and-numbers-1"
+      },
+      {
+        "header": "Common mistake when adding strings and numbers 2",
+        "folder": "common-mistake-when-adding-strings-and-numbers-2"
+      },
+      {
+        "header": "JavaScript will try to convert strings to numbers when dividing",
+        "folder": "javascript-will-try-to-convert-strings-to-numbers-when-dividing"
+      },
+      {
+        "header": "JavaScript will try to convert strings to numbers when multiplying",
+        "folder": "javascript-will-try-to-convert-strings-to-numbers-when-multiplying"
+      },
+      {
+        "header": "JavaScript will try to convert strings to numbers when subtracting",
+        "folder": "javascript-will-try-to-convert-strings-to-numbers-when-subtracting"
+      },
+      {
+        "header": "JavaScript will NOT convert strings to numbers when adding",
+        "folder": "javascript-will-not-convert-strings-to-numbers-when-adding"
+      },
+      {
+        "header": "A number divided by a string is NaN (Not a Number)",
+        "folder": "a-number-divided-by-a-string-is-nan-not-a-number"
+      },
+      {
+        "header": "A number divided by a numeric string is a number",
+        "folder": "a-number-divided-by-a-numeric-string-is-a-number"
+      },
+      {
+        "header": "The global JavaScript function isNaN() returns if a value is a number",
+        "folder": "the-global-javascript-function-isnan-returns-if-a-value-is-a-number"
+      },
+      {
+        "header": "Using NaN in a mathematical operation will always return NaN",
+        "folder": "using-nan-in-a-mathematical-operation-will-always-return-nan"
+      },
+      {
+        "header": "Using NaN in a mathematical string operation will concatenate NaN",
+        "folder": "using-nan-in-a-mathematical-string-operation-will-concatenate-nan"
+      },
+      {
+        "header": "NaN (Not a Number) is a number (Yes! typeof NaN returns number)",
+        "folder": "nan-not-a-number-is-a-number-yes-not-typeof-nan-returns-number"
+      },
+      {
+        "header": "Infinity is returned if you calculate a number outside the largest possible number",
+        "folder": "infinity-is-returned-if-you-calculate-a-number-outside-the-largest-possible-number"
+      },
+      {
+        "header": "Division by zero also generates Infinity",
+        "folder": "division-by-zero-also-generates-infinity"
+      },
+      {
+        "header": "Infinity is a number (typeof Infinity returns number)",
+        "folder": "infinity-is-a-number-typeof-infinity-returns-number"
+      },
+      {
+        "header": "Constants, preceded by 0x, are interpreted as hexadecimal",
+        "folder": "constants-comma-preceded-by-0x-comma-are-interpreted-as-hexadecimal"
+      },
+      {
+        "header": "The toString() method can output numbers as hex, octal, and binary",
+        "folder": "the-tostring-method-can-output-numbers-as-hex-comma-octal-comma-and-binary"
+      },
+      {
+        "header": "Numbers can be objects",
+        "folder": "numbers-can-be-objects"
+      },
+      {
+        "header": "Numbers and objects cannot be safely compared",
+        "folder": "numbers-and-objects-cannot-be-safely-compared"
+      },
+      {
+        "header": "Objects and objects cannot be safely compared",
+        "folder": "objects-and-objects-cannot-be-safely-compared"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Number Methods",
+    "folder": "javascript-number-methods",
+    "children": [
+      {
+        "header": "The toString() method converts a number to a string",
+        "folder": "the-tostring-method-converts-a-number-to-a-string"
+      },
+      {
+        "header": "The valueOf() method returns a number as a number",
+        "folder": "the-valueof-method-returns-a-number-as-a-number"
+      },
+      {
+        "header": "The toExponential() returns a number with exponential notation",
+        "folder": "the-toexponential-returns-a-number-with-exponential-notation"
+      },
+      {
+        "header": "The toFixed() method rounds a number to a number of digits",
+        "folder": "the-tofixed-method-rounds-a-number-to-a-number-of-digits"
+      },
+      {
+        "header": "The toPrecision() method a number written with a specified length",
+        "folder": "the-toprecision-method-a-number-written-with-a-specified-length"
+      },
+      {
+        "header": "The global method Number() converts variables to numbers",
+        "folder": "the-global-method-number-converts-variables-to-numbers"
+      },
+      {
+        "header": "The global method Number() can even convert dates to numbers",
+        "folder": "the-global-method-number-can-even-convert-dates-to-numbers"
+      },
+      {
+        "header": "The global method parseInt() converts strings to numbers",
+        "folder": "the-global-method-parseint-converts-strings-to-numbers"
+      },
+      {
+        "header": "The global method parseFloat() converts strings to numbers",
+        "folder": "the-global-method-parsefloat-converts-strings-to-numbers"
+      },
+      {
+        "header": "MAX_VALUE returns the largest possible number in JavaScript",
+        "folder": "max-value-returns-the-largest-possible-number-in-javascript"
+      },
+      {
+        "header": "MIN_VALUE returns the smallest possible number in JavaScript",
+        "folder": "min-value-returns-the-smallest-possible-number-in-javascript"
+      },
+      {
+        "header": "POSITIVE_INFINITY represents infinity",
+        "folder": "positive-infinity-represents-infinity"
+      },
+      {
+        "header": "POSITIVE_INFINITY is returned on overflow",
+        "folder": "positive-infinity-is-returned-on-overflow"
+      },
+      {
+        "header": "NEGATIVE_INFINITY represents negative infinity",
+        "folder": "negative-infinity-represents-negative-infinity"
+      },
+      {
+        "header": "NEGATIVE_INFINITY is returned on overflow",
+        "folder": "negative-infinity-is-returned-on-overflow"
+      },
+      {
+        "header": "NaN Represents \"Not-a-Number\"",
+        "folder": "nan-represents-not-minus-a-minus-number"
+      },
+      {
+        "header": "Arithmetic performed on a string will result in NaN",
+        "folder": "arithmetic-performed-on-a-string-will-result-in-nan"
+      },
+      {
+        "header": "Using a Number property on a variable will return undefined",
+        "folder": "using-a-number-property-on-a-variable-will-return-undefined"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Maths",
+    "folder": "javascript-maths",
+    "children": [
+      {
+        "header": "Math.PI returns the value of PI",
+        "folder": "math-dot-pi-returns-the-value-of-pi"
+      },
+      {
+        "header": "Math.round(x) returns the rounded value of x",
+        "folder": "math-dot-round-x-returns-the-rounded-value-of-x"
+      },
+      {
+        "header": "Math.pow(x, y) returns the value of x to the power of y",
+        "folder": "math-dot-pow-x-comma-y-returns-the-value-of-x-to-the-power-of-y"
+      },
+      {
+        "header": "Math.sqrt(x) returns the square root of x",
+        "folder": "math-dot-sqrt-x-returns-the-square-root-of-x"
+      },
+      {
+        "header": "Math.abs(x) returns the absolute (positive) value of x",
+        "folder": "math-dot-abs-x-returns-the-absolute-positive-value-of-x"
+      },
+      {
+        "header": "Math.ceil(x) returns the value of x rounded up",
+        "folder": "math-dot-ceil-x-returns-the-value-of-x-rounded-up"
+      },
+      {
+        "header": "Math.floor(x) returns the value of x rounded down",
+        "folder": "math-dot-floor-x-returns-the-value-of-x-rounded-down"
+      },
+      {
+        "header": "Math.sin(x) returns the sin of the angle x (given in radians)",
+        "folder": "math-dot-sin-x-returns-the-sin-of-the-angle-x-given-in-radians"
+      },
+      {
+        "header": "Math.cos(x) returns the cosin of the angle x (given in radians)",
+        "folder": "math-dot-cos-x-returns-the-cosin-of-the-angle-x-given-in-radians"
+      },
+      {
+        "header": "Math.max() return the number with the highest value from a list of arguments",
+        "folder": "math-dot-max-return-the-number-with-the-highest-value-from-a-list-of-arguments"
+      },
+      {
+        "header": "Math.min() to return the number with the lowest value from a list of arguments",
+        "folder": "math-dot-min-to-return-the-number-with-the-lowest-value-from-a-list-of-arguments"
+      },
+      {
+        "header": "Converting Celsius to Fahrenheit",
+        "folder": "converting-celsius-to-fahrenheit"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Random",
+    "folder": "javascript-random",
+    "children": [
+      {
+        "header": "Math.random() returns a random number between 0 (included) and 1 (excluded)",
+        "folder": "math-dot-random-returns-a-random-number-between-0-included-and-1-excluded"
+      },
+      {
+        "header": "How to return a random integer between 0 and 9 (both included)",
+        "folder": "how-to-return-a-random-integer-between-0-and-9-both-included"
+      },
+      {
+        "header": "How to return a random integer between 0 and 10 (both included)",
+        "folder": "how-to-return-a-random-integer-between-0-and-10-both-included"
+      },
+      {
+        "header": "How to return a random integer between 0 and 99 (both included)",
+        "folder": "how-to-return-a-random-integer-between-0-and-99-both-included"
+      },
+      {
+        "header": "How to return a random integer between 0 and 100 (both included)",
+        "folder": "how-to-return-a-random-integer-between-0-and-100-both-included"
+      },
+      {
+        "header": "How to return a random integer between 1 and 10 (both included)",
+        "folder": "how-to-return-a-random-integer-between-1-and-10-both-included"
+      },
+      {
+        "header": "How to return a random integer between 1 and 100 (both included)",
+        "folder": "how-to-return-a-random-integer-between-1-and-100-both-included"
+      },
+      {
+        "header": "How to return a random integer between x (included) and y (excluded)",
+        "folder": "how-to-return-a-random-integer-between-x-included-and-y-excluded"
+      },
+      {
+        "header": "How to return a random integer between x and y (both included)",
+        "folder": "how-to-return-a-random-integer-between-x-and-y-both-included"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Dates",
+    "folder": "javascript-dates",
+    "children": [
+      {
+        "header": "Use Date() to display today's date and time",
+        "folder": "use-date-to-display-today-s-date-and-time"
+      },
+      {
+        "header": "Use getFullYear() display the year",
+        "folder": "use-getfullyear-display-the-year"
+      },
+      {
+        "header": "Use getTime() to calculate the number of milliseconds since 1970",
+        "folder": "use-gettime-to-calculate-the-number-of-milliseconds-since-1970"
+      },
+      {
+        "header": "Use setFullYear() to set a specific date",
+        "folder": "use-setfullyear-to-set-a-specific-date"
+      },
+      {
+        "header": "Use toUTCString() to convert today's date (according to UTC) to a string",
+        "folder": "use-toutcstring-to-convert-today-s-date-according-to-utc-to-a-string"
+      },
+      {
+        "header": "Use getDay() to display the weekday as a number",
+        "folder": "use-getday-to-display-the-weekday-as-a-number"
+      },
+      {
+        "header": "Use getDay() and an array to display the weekday as a name",
+        "folder": "use-getday-and-an-array-to-display-the-weekday-as-a-name"
+      },
+      {
+        "header": "Display a clock",
+        "folder": "display-a-clock"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Arrays",
+    "folder": "javascript-arrays",
+    "children": [
+      {
+        "header": "Create an array I",
+        "folder": "create-an-array-i"
+      },
+      {
+        "header": "Create an array II",
+        "folder": "create-an-array-ii"
+      },
+      {
+        "header": "Access an array element",
+        "folder": "access-an-array-element"
+      },
+      {
+        "header": "Change an array element",
+        "folder": "change-an-array-element"
+      },
+      {
+        "header": "Access a full array",
+        "folder": "access-a-full-array"
+      },
+      {
+        "header": "Find the length of an array",
+        "folder": "find-the-length-of-an-array"
+      },
+      {
+        "header": "Loop through an array",
+        "folder": "loop-through-an-array"
+      },
+      {
+        "header": "Add an element to an array",
+        "folder": "add-an-element-to-an-array"
+      },
+      {
+        "header": "Add undefined \"holes\" to an array",
+        "folder": "add-undefined-holes-to-an-array"
+      },
+      {
+        "header": "How to \nrecognize an array I",
+        "folder": "how-to-recognize-an-array-i"
+      },
+      {
+        "header": "How to \nrecognize an array II",
+        "folder": "how-to-recognize-an-array-ii"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Array Methods",
+    "folder": "javascript-array-methods",
+    "children": [
+      {
+        "header": "Add an element to an array",
+        "folder": "add-an-element-to-an-array"
+      },
+      {
+        "header": "Remove the last element of an array - pop()",
+        "folder": "remove-the-last-element-of-an-array-minus-pop"
+      },
+      {
+        "header": "Join all elements of an array into a string - join()",
+        "folder": "join-all-elements-of-an-array-into-a-string-minus-join"
+      },
+      {
+        "header": "Join two arrays - concat()",
+        "folder": "join-two-arrays-minus-concat"
+      },
+      {
+        "header": "Join three arrays - concat()",
+        "folder": "join-three-arrays-minus-concat"
+      },
+      {
+        "header": "Add an element to position 2 in an array - splice()",
+        "folder": "add-an-element-to-position-2-in-an-array-minus-splice"
+      },
+      {
+        "header": "Convert an array to a string - toString()",
+        "folder": "convert-an-array-to-a-string-minus-tostring"
+      },
+      {
+        "header": "Add new elements to the beginning of an array - unshift()",
+        "folder": "add-new-elements-to-the-beginning-of-an-array-minus-unshift"
+      },
+      {
+        "header": "Remove the first element of an array - shift()",
+        "folder": "remove-the-first-element-of-an-array-minus-shift"
+      },
+      {
+        "header": "Select elements from an array - slice()",
+        "folder": "select-elements-from-an-array-minus-slice"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Array Sort",
+    "folder": "javascript-array-sort",
+    "children": [
+      {
+        "header": "Sort an array in ascending order",
+        "folder": "sort-an-array-in-ascending-order"
+      },
+      {
+        "header": "Sort an array in descending order",
+        "folder": "sort-an-array-in-descending-order"
+      },
+      {
+        "header": "Sort an array of numbers ascending",
+        "folder": "sort-an-array-of-numbers-ascending"
+      },
+      {
+        "header": "Sort an array of numbers descending",
+        "folder": "sort-an-array-of-numbers-descending"
+      },
+      {
+        "header": "Sort numbers (alphabetically or numerically)",
+        "folder": "sort-numbers-alphabetically-or-numerically"
+      },
+      {
+        "header": "Sort array numbers in random order",
+        "folder": "sort-array-numbers-in-random-order"
+      },
+      {
+        "header": "Find the lowest number in an array",
+        "folder": "find-the-lowest-number-in-an-array"
+      },
+      {
+        "header": "Find the highest number in an array",
+        "folder": "find-the-highest-number-in-an-array"
+      },
+      {
+        "header": "Find the lowest number in an array using Math.min()",
+        "folder": "find-the-lowest-number-in-an-array-using-math-dot-min"
+      },
+      {
+        "header": "Find the highest number in an array using Math.max()",
+        "folder": "find-the-highest-number-in-an-array-using-math-dot-max"
+      },
+      {
+        "header": "Using a \"homemade\" myArrayMin method",
+        "folder": "using-a-homemade-myarraymin-method"
+      },
+      {
+        "header": "Using a \"homemade\" myArrayMax method",
+        "folder": "using-a-homemade-myarraymax-method"
+      },
+      {
+        "header": "Sort objects by numeric properties",
+        "folder": "sort-objects-by-numeric-properties"
+      },
+      {
+        "header": "Sort objects by string properties",
+        "folder": "sort-objects-by-string-properties"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Array Iteration",
+    "folder": "javascript-array-iteration",
+    "children": [
+      {
+        "header": "Array.forEach()",
+        "folder": "array-dot-foreach"
+      },
+      {
+        "header": "Array.map()",
+        "folder": "array-dot-map"
+      },
+      {
+        "header": "Array.filter()",
+        "folder": "array-dot-filter"
+      },
+      {
+        "header": "Array.reduce()",
+        "folder": "array-dot-reduce"
+      },
+      {
+        "header": "Array.reduceRight()",
+        "folder": "array-dot-reduceright"
+      },
+      {
+        "header": "Array.every()",
+        "folder": "array-dot-every"
+      },
+      {
+        "header": "Array.some()",
+        "folder": "array-dot-some"
+      },
+      {
+        "header": "Array.indexOf()",
+        "folder": "array-dot-indexof"
+      },
+      {
+        "header": "Array.lastIndexOf()",
+        "folder": "array-dot-lastindexof"
+      },
+      {
+        "header": "Array.find()",
+        "folder": "array-dot-find"
+      },
+      {
+        "header": "Array.findIndex()",
+        "folder": "array-dot-findindex"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Type Conversion",
+    "folder": "javascript-type-conversion",
+    "children": [
+      {
+        "header": "Display the typeof all variable types",
+        "folder": "display-the-typeof-all-variable-types"
+      },
+      {
+        "header": "Display the constructor of all variable types",
+        "folder": "display-the-constructor-of-all-variable-types"
+      },
+      {
+        "header": "Convert a number to a string using String()",
+        "folder": "convert-a-number-to-a-string-using-string"
+      },
+      {
+        "header": "Convert a number to a string using toString()",
+        "folder": "convert-a-number-to-a-string-using-tostring"
+      },
+      {
+        "header": "Find out if a variable is an array",
+        "folder": "find-out-if-a-variable-is-an-array"
+      },
+      {
+        "header": "Find out if a variable is a date",
+        "folder": "find-out-if-a-variable-is-a-date"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Booleans",
+    "folder": "javascript-booleans",
+    "children": [
+      {
+        "header": "Display the value of Boolean(10 > 9)",
+        "folder": "display-the-value-of-boolean-10-greater-than-9"
+      },
+      {
+        "header": "Display the value of 10 > 9",
+        "folder": "display-the-value-of-10-greater-than-9"
+      },
+      {
+        "header": "Everything with a real value is true",
+        "folder": "everything-with-a-real-value-is-true"
+      },
+      {
+        "header": "The Boolean value of zero is false",
+        "folder": "the-boolean-value-of-zero-is-false"
+      },
+      {
+        "header": "The Boolean value of minus zero is false",
+        "folder": "the-boolean-value-of-minus-zero-is-false"
+      },
+      {
+        "header": "The Boolean value of an empty string is false",
+        "folder": "the-boolean-value-of-an-empty-string-is-false"
+      },
+      {
+        "header": "The Boolean value of undefined is false",
+        "folder": "the-boolean-value-of-undefined-is-false"
+      },
+      {
+        "header": "The Boolean value of null is false",
+        "folder": "the-boolean-value-of-null-is-false"
+      },
+      {
+        "header": "The Boolean value of false is false",
+        "folder": "the-boolean-value-of-false-is-false"
+      },
+      {
+        "header": "The Boolean value of NaN is false",
+        "folder": "the-boolean-value-of-nan-is-false"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Comparisons",
+    "folder": "javascript-comparisons",
+    "children": [
+      {
+        "header": "Assign 5 to x, and display the value of (x == 8)",
+        "folder": "assign-5-to-x-comma-and-display-the-value-of-x-equals-equals-8"
+      },
+      {
+        "header": "Assign 5 to x, and display the value of (x == 5)",
+        "folder": "assign-5-to-x-comma-and-display-the-value-of-x-equals-equals-5"
+      },
+      {
+        "header": "Assign 5 to x, and display the value of (x === 5)",
+        "folder": "assign-5-to-x-comma-and-display-the-value-of-x-equals-equals-equals-5"
+      },
+      {
+        "header": "Assign 5 to x, and display the value of (x === \"5\")",
+        "folder": "assign-5-to-x-comma-and-display-the-value-of-x-equals-equals-equals-5"
+      },
+      {
+        "header": "Assign 5 to x, and display the value of (x != 8)",
+        "folder": "assign-5-to-x-comma-and-display-the-value-of-x-not-equals-8"
+      },
+      {
+        "header": "Assign 5 to x, and display the value of (x !== 5)",
+        "folder": "assign-5-to-x-comma-and-display-the-value-of-x-not-equals-equals-5"
+      },
+      {
+        "header": "Assign 5 to x, and display the value of (x !== \"5\")",
+        "folder": "assign-5-to-x-comma-and-display-the-value-of-x-not-equals-equals-5"
+      },
+      {
+        "header": "Assign 5 to x, and display the value of (x > 8)",
+        "folder": "assign-5-to-x-comma-and-display-the-value-of-x-greater-than-8"
+      },
+      {
+        "header": "Assign 5 to x, and display the value of (x < 8)",
+        "folder": "assign-5-to-x-comma-and-display-the-value-of-x-less-than-8"
+      },
+      {
+        "header": "Assign 5 to x, and display the value of (x >= 8)",
+        "folder": "assign-5-to-x-comma-and-display-the-value-of-x-greater-than-equals-8"
+      },
+      {
+        "header": "Assign 5 to x, and display the value of (x <= 8)",
+        "folder": "assign-5-to-x-comma-and-display-the-value-of-x-less-than-equals-8"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Conditionals",
+    "folder": "javascript-conditionals",
+    "children": [
+      {
+        "header": "The if statement",
+        "folder": "the-if-statement"
+      },
+      {
+        "header": "The else statement",
+        "folder": "the-else-statement"
+      },
+      {
+        "header": "The else if statement",
+        "folder": "the-else-if-statement"
+      },
+      {
+        "header": "Random link",
+        "folder": "random-link"
+      },
+      {
+        "header": "Switch statement",
+        "folder": "switch-statement"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Loops",
+    "folder": "javascript-loops",
+    "children": [
+      {
+        "header": "For loop",
+        "folder": "for-loop"
+      },
+      {
+        "header": "Looping an Array",
+        "folder": "looping-an-array"
+      },
+      {
+        "header": "Looping through HTML headers",
+        "folder": "looping-through-html-headers"
+      },
+      {
+        "header": "While loop",
+        "folder": "while-loop"
+      },
+      {
+        "header": "Do While loop",
+        "folder": "do-while-loop"
+      },
+      {
+        "header": "Break a loop",
+        "folder": "break-a-loop"
+      },
+      {
+        "header": "Break and continue a loop",
+        "folder": "break-and-continue-a-loop"
+      },
+      {
+        "header": "Use a for...in statement to loop through the elements of an \nobject",
+        "folder": "use-a-for-dot-dot-dot-in-statement-to-loop-through-the-elements-of-an-object"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Error Handling",
+    "folder": "javascript-error-handling",
+    "children": [
+      {
+        "header": "The try...catch statement",
+        "folder": "the-try-dot-dot-dot-catch-statement"
+      },
+      {
+        "header": "The try...catch statement with a confirm box",
+        "folder": "the-try-dot-dot-dot-catch-statement-with-a-confirm-box"
+      },
+      {
+        "header": "The onerror event",
+        "folder": "the-onerror-event"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Regular Expressions",
+    "folder": "javascript-regular-expressions",
+    "children": [
+      {
+        "header": "Search for an expression in a string",
+        "folder": "search-for-an-expression-in-a-string"
+      },
+      {
+        "header": "Search for an expression and replace it",
+        "folder": "search-for-an-expression-and-replace-it"
+      }
+    ]
+  },
+  {
+    "header": "JavaScript Object Properties",
+    "folder": "javascript-object-properties",
+    "children": [
+      {
+        "header": "Accessing properties using .property",
+        "folder": "accessing-properties-using-dot-property"
+      },
+      {
+        "header": "Accessing properties using [property]",
+        "folder": "accessing-properties-using-property"
+      },
+      {
+        "header": "Accessing properties using for in",
+        "folder": "accessing-properties-using-for-in"
+      },
+      {
+        "header": "Adding new properties to existing objects",
+        "folder": "adding-new-properties-to-existing-objects"
+      },
+      {
+        "header": "Deleting properties from objects",
+        "folder": "deleting-properties-from-objects"
+      }
+    ]
+  },
+  {
+    "header": "JSON Objects",
+    "folder": "json-objects",
+    "children": [
+      {
+        "header": "Accessing properties using .property",
+        "folder": "accessing-properties-using-dot-property"
+      },
+      {
+        "header": "Accessing properties using [property]",
+        "folder": "accessing-properties-using-property"
+      },
+      {
+        "header": "Looping through properties",
+        "folder": "looping-through-properties"
+      },
+      {
+        "header": "Looping through property values",
+        "folder": "looping-through-property-values"
+      },
+      {
+        "header": "Access nested JSON objects",
+        "folder": "access-nested-json-objects"
+      },
+      {
+        "header": "Modify values using the dot notation",
+        "folder": "modify-values-using-the-dot-notation"
+      },
+      {
+        "header": "Modify values using the bracket notation",
+        "folder": "modify-values-using-the-bracket-notation"
+      },
+      {
+        "header": "Delete object properties",
+        "folder": "delete-object-properties"
+      }
+    ]
+  },
+  {
+    "header": "JSON Arrays",
+    "folder": "json-arrays",
+    "children": [
+      {
+        "header": "Accessing array values",
+        "folder": "accessing-array-values"
+      },
+      {
+        "header": "Looping through an array using for-in",
+        "folder": "looping-through-an-array-using-for-minus-in"
+      },
+      {
+        "header": "Looping through an array using for",
+        "folder": "looping-through-an-array-using-for"
+      },
+      {
+        "header": "Access nested JSON arrays",
+        "folder": "access-nested-json-arrays"
+      },
+      {
+        "header": "Modify array values",
+        "folder": "modify-array-values"
+      },
+      {
+        "header": "Delete array items",
+        "folder": "delete-array-items"
+      }
+    ]
+  },
+  {
+    "header": "JSON Parse",
+    "folder": "json-parse",
+    "children": [
+      {
+        "header": "Use JSON parse",
+        "folder": "use-json-parse"
+      },
+      {
+        "header": "Using JSON parse in an AJAX example",
+        "folder": "using-json-parse-in-an-ajax-example"
+      },
+      {
+        "header": "Using JSON parse on an array",
+        "folder": "using-json-parse-on-an-array"
+      },
+      {
+        "header": "Parsing dates",
+        "folder": "parsing-dates"
+      },
+      {
+        "header": "Parsing dates using the reviver function",
+        "folder": "parsing-dates-using-the-reviver-function"
+      },
+      {
+        "header": "Parsing functions",
+        "folder": "parsing-functions"
+      }
+    ]
+  },
+  {
+    "header": "JSON Stringify",
+    "folder": "json-stringify",
+    "children": [
+      {
+        "header": "Use JSON stringify",
+        "folder": "use-json-stringify"
+      },
+      {
+        "header": "Using JSON stringify on an array",
+        "folder": "using-json-stringify-on-an-array"
+      },
+      {
+        "header": "Stringify dates",
+        "folder": "stringify-dates"
+      },
+      {
+        "header": "Stringify functions",
+        "folder": "stringify-functions"
+      },
+      {
+        "header": "Stringify functions using the toString() method",
+        "folder": "stringify-functions-using-the-tostring-method"
+      }
+    ]
+  },
+  {
+    "header": "JSON PHP",
+    "folder": "json-php",
+    "children": [
+      {
+        "header": "Get JSON from a php file",
+        "folder": "get-json-from-a-php-file"
+      },
+      {
+        "header": "Get JSON array from php",
+        "folder": "get-json-array-from-php"
+      },
+      {
+        "header": "Get JSON from a database",
+        "folder": "get-json-from-a-database"
+      },
+      {
+        "header": "Loop through the result from a database",
+        "folder": "loop-through-the-result-from-a-database"
+      },
+      {
+        "header": "Send JSON using POST method",
+        "folder": "send-json-using-post-method"
+      }
+    ]
+  },
+  {
+    "header": "JSON HTML",
+    "folder": "json-html",
+    "children": [
+      {
+        "header": "Make an HTML table based on JSON data",
+        "folder": "make-an-html-table-based-on-json-data"
+      },
+      {
+        "header": "Make a dynamic HTML Table",
+        "folder": "make-a-dynamic-html-table"
+      },
+      {
+        "header": "Make an HTML drop down list based on JSON data",
+        "folder": "make-an-html-drop-down-list-based-on-json-data"
+      }
+    ]
+  },
+  {
+    "header": "JSON JSONP",
+    "folder": "json-jsonp",
+    "children": [
+      {
+        "header": "Simple JSONP example",
+        "folder": "simple-jsonp-example"
+      },
+      {
+        "header": "Create a dynamic script tag",
+        "folder": "create-a-dynamic-script-tag"
+      },
+      {
+        "header": "JSONP example with dynamic result",
+        "folder": "jsonp-example-with-dynamic-result"
+      },
+      {
+        "header": "JSONP example with a callback function",
+        "folder": "jsonp-example-with-a-callback-function"
+      }
+    ]
+  }
+]

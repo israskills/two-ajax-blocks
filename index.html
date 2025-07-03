@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Two blocks: headers and content</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+        .left {
+            width: 250px;
+            background: #f4f4f4;
+            border-right: 1px solid #ddd;
+            padding: 20px 0 0 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+        }
+        #logoOrBack {
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin: 0 0 10px 20px;
+        }
+        #logoOrBack img, #logoOrBack .logo-text {
+            height: 28px;
+            max-width: 120px;
+            object-fit: contain;
+            display: block;
+        }
+        #backButton {
+            padding: 7px 16px;
+            background: #68e7cf;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 15px;
+            height: 32px;
+            min-width: 90px;
+        }
+        .header-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            flex: 1;
+            overflow-y: auto;
+        }
+        .header-list li {
+            padding: 12px 24px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .header-list li:hover, .header-list li.active {
+            background: #a8c4ff;
+        }
+        .right {
+            flex: 1;
+            padding: 32px;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div id="defaultConfig" data-file="core/FRONTEND/index.html" style="display:none;"></div>
+    <div class="left">
+        <div id="logoOrBack">
+            <span class="logo-text">LOGO</span>
+        </div>
+        <ul class="header-list" id="headerList"></ul>
+    </div>
+    <div class="right" id="contentArea" style="display:block;">
+        <!-- Content will be loaded dynamically -->
+    </div>
+</div>
+
+<script>
+    const headerList = document.getElementById('headerList');
+    const contentArea = document.getElementById('contentArea');
+    const logoOrBack = document.getElementById('logoOrBack');
+    const defaultConfig = document.getElementById('defaultConfig');
+    let jsonData = null;
+    let navStack = [];
+    let currentItems = null;
+    let pinnedHtmlPath = null;
+    let pinnedKey = null;
+    let pinnedFolders = [];
+    let inJsMenu = false; // флаг: находимся ли мы во вложенном меню JAVASCRIPT
+    
+    // Константы и утилиты для работы с путями
+    const BASE_PATH = 'core/FRONTEND';
+    const JS_PATH = `${BASE_PATH}/JAVASCRIPT`;
+    const DEFAULT_FILE = () => defaultConfig.getAttribute('data-file') || `${JS_PATH}/index.html`;
+    
+    // Генерация путей
+    function buildPath(folder, subfolders = []) {
+        const path = subfolders.length > 0 
+            ? `${BASE_PATH}/${folder}/${subfolders.join('/')}/index.html`
+            : `${BASE_PATH}/${folder}/index.html`;
+        return folder === 'JAVASCRIPT' ? path.replace('//', '/') : path;
+    }
+    
+    // Вспомогательные функции для работы с UI
+    function setActive(element) {
+        document.querySelectorAll('.header-list li').forEach(li => li.classList.remove('active'));
+        if (element) element.classList.add('active');
+    }
+    
+    // Показать логотип или кнопку назад
+    function updateLogoOrBack() {
+        logoOrBack.innerHTML = '';
+        if (navStack.length > 0 || inJsMenu) {
+            // Кнопка "Назад"
+            const btn = document.createElement('button');
+            btn.id = 'backButton';
+            btn.textContent = 'Back';
+            btn.onclick = backButtonHandler;
+            logoOrBack.appendChild(btn);
+        } else {
+            // Логотип
+            const logo = document.createElement('span');
+            logo.className = 'logo-text';
+            logo.textContent = 'LOGO';
+            logoOrBack.appendChild(logo);
+        }
+    }
+    
+    // AJAX load and insert HTML
+    async function showContentAjaxByPath(path) {
+        try {
+            const resp = await fetch(path);
+            if (!resp.ok) throw new Error('Content loading error');
+            const text = await resp.text();
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(text, 'text/html');
+            const bodyContent = doc.body ? doc.body.innerHTML : text;
+            
+            // Очищаем старые стили перед добавлением новых
+            document.querySelectorAll('[data-dynamic-style]').forEach(el => el.remove());
+            
+            // Добавляем новый контент
+            contentArea.innerHTML = bodyContent;
+            contentArea.style.display = 'block';
+            
+            // Добавляем стили
+            const addStyle = (tag, attributes) => {
+                const element = document.createElement(tag);
+                Object.entries(attributes).forEach(([key, value]) => 
+                    element.setAttribute(key, value));
+                document.head.appendChild(element);
+            };
+            
+            doc.querySelectorAll('link[rel="stylesheet"]').forEach(link => {
+                addStyle('link', {
+                    'rel': 'stylesheet',
+                    'href': link.href,
+                    'data-dynamic-style': 'true'
+                });
+            });
+            
+            doc.querySelectorAll('style').forEach(style => {
+                const newStyle = document.createElement('style');
+                newStyle.innerHTML = style.innerHTML;
+                newStyle.setAttribute('data-dynamic-style', 'true');
+                document.head.appendChild(newStyle);
+            });
+        } catch (e) {
+            contentArea.innerHTML = '<p style="color:red">Content loading error</p>';
+        }
+    }
+    
+    // Создаем элемент меню с общей логикой для обработки событий
+    function createMenuItem(item, path, key = null, parentFolders = [], hasChildren = false) {
+        const li = document.createElement('li');
+        li.textContent = item.header;
+        li.style.cursor = 'pointer';
+        
+        if (pinnedKey === key) {
+            li.classList.add('active');
+        }
+    
+        // Обработка событий наведения мыши
+        li.addEventListener('mouseover', () => showContentAjaxByPath(path));
+        li.addEventListener('mouseout', () => showContentAjaxByPath(pinnedHtmlPath || DEFAULT_FILE()));
+    
+        // Обработчик клика
+        li.onclick = (e) => {
+            e.stopPropagation();
+            handleMenuItemClick(li, item, path, key, parentFolders, hasChildren);
+        };
+        
+        return li;
+    }
+    
+    // Обработка клика по элементу меню
+    function handleMenuItemClick(li, item, path, key, parentFolders, hasChildren) {
+        // Если текущий пункт активен, возвращаемся на уровень выше
+        if (pinnedKey === key) {
+            navigateUp(parentFolders);
+            return;
+        }
+    
+        setActive(li);
+        
+        // Сохраняем текущее состояние перед переходом
+        if (hasChildren) {
+            navStack.push({
+                items: currentItems,
+                parentFolders: parentFolders,
+                pinnedHtmlPath: pinnedHtmlPath,
+                pinnedKey: pinnedKey,
+                pinnedFolders: [...pinnedFolders]
+            });
+        }
+    
+        // Обновляем состояние
+        pinnedHtmlPath = path;
+        pinnedKey = key;
+        pinnedFolders = [...parentFolders];
+    
+        // Переходим глубже если есть дочерние элементы
+        if (hasChildren) {
+            currentItems = item.children;
+            renderMenu(item.children, parentFolders);
+        }
+        
+        updateLogoOrBack();
+        showContentAjaxByPath(path);
+    }
+    
+    // Переход на уровень выше
+    function navigateUp(folders) {
+        let parentHtmlPath = DEFAULT_FILE();
+        let parentKey = null;
+        let parentFoldersArr = [];
+        
+        if (folders.length > 1) {
+            parentFoldersArr = folders.slice(0, folders.length - 1);
+            parentHtmlPath = buildPath('JAVASCRIPT', parentFoldersArr);
+            parentKey = parentFoldersArr.join('/');
+        }
+        
+        pinnedHtmlPath = parentHtmlPath;
+        pinnedKey = parentKey;
+        pinnedFolders = parentFoldersArr;
+        setActive(null);
+        showContentAjaxByPath(parentHtmlPath);
+    }
+    
+    // Рендерим три верхних папки
+    function renderTopFoldersMenu() {
+        inJsMenu = false;
+        headerList.innerHTML = '';
+        const folders = [
+            { header: 'HTML', folder: 'HTML' },
+            { header: 'CSS', folder: 'CSS' },
+            { header: 'JAVASCRIPT', folder: 'JAVASCRIPT' }
+        ];
+        
+        folders.forEach(item => {
+            const path = buildPath(item.folder);
+            const li = createMenuItem(
+                item, 
+                path,
+                item.folder,
+                [item.folder]
+            );
+    
+            li.onclick = () => {
+                setActive(li);
+                
+                if (item.folder === 'JAVASCRIPT') {
+                    // Переходим к меню из JSON
+                    inJsMenu = true;
+                    navStack = [];
+                    currentItems = jsonData;
+                    pinnedHtmlPath = path;
+                    pinnedKey = null;
+                    pinnedFolders = [];
+                    renderMenu(jsonData, []);
+                } else {
+                    // Просто показываем страницу
+                    inJsMenu = false;
+                    pinnedHtmlPath = path;
+                    pinnedKey = item.folder;
+                    pinnedFolders = [item.folder];
+                }
+                
+                updateLogoOrBack();
+                showContentAjaxByPath(path);
+            };
+    
+            headerList.appendChild(li);
+        });
+        
+        updateLogoOrBack();
+    }
+    
+    // Рендер меню JAVASCRIPT
+    function renderMenu(items, parentFolders = []) {
+        headerList.innerHTML = '';
+        
+        items.forEach(item => {
+            const fullFolders = [...parentFolders, item.folder];
+            const uniqueKey = fullFolders.join('/');
+            const htmlPath = buildPath('JAVASCRIPT', fullFolders);
+            const hasChildren = item.children && item.children.length > 0;
+            
+            const li = createMenuItem(
+                item, 
+                htmlPath, 
+                uniqueKey, 
+                fullFolders, 
+                hasChildren
+            );
+            
+            headerList.appendChild(li);
+        });
+        
+        updateLogoOrBack();
+    }
+    
+    // Back button logic
+    function backButtonHandler() {
+        if (inJsMenu && navStack.length === 0) {
+            // Возвращаемся к трём основным папкам
+            renderTopFoldersMenu();
+            pinnedHtmlPath = DEFAULT_FILE();
+            pinnedKey = null;
+            pinnedFolders = [];
+            inJsMenu = false;
+            showContentAjaxByPath(DEFAULT_FILE());
+            updateLogoOrBack();
+            return;
+        }
+        
+        if (navStack.length > 0) {
+            const prev = navStack.pop();
+            currentItems = prev.items;
+            pinnedHtmlPath = prev.pinnedHtmlPath;
+            pinnedKey = prev.pinnedKey;
+            pinnedFolders = [...prev.pinnedFolders];
+            renderMenu(currentItems, prev.parentFolders);
+            setActive(null);
+            updateLogoOrBack();
+            showContentAjaxByPath(prev.pinnedHtmlPath);
+        }
+    }
+    
+    // Load JSON and initialize
+    async function loadHeadersJson() {
+        try {
+            const resp = await fetch('core/FRONTEND/JAVASCRIPT/javascript_headers.json');
+            if (!resp.ok) throw new Error('Menu loading error');
+            jsonData = await resp.json();
+            navStack = [];
+            currentItems = jsonData;
+            pinnedHtmlPath = DEFAULT_FILE();
+            pinnedKey = null;
+            pinnedFolders = [];
+            renderTopFoldersMenu();
+            updateLogoOrBack();
+            showContentAjaxByPath(pinnedHtmlPath);
+        } catch (e) {
+            contentArea.innerHTML = '<p style="color:red">Menu loading error</p>';
+        }
+    }
+    
+    loadHeadersJson();
+    </script>
+    
+</body>
+</html>

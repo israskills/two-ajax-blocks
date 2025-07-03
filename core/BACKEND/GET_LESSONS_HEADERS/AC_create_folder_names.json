@@ -1,0 +1,393 @@
+{
+  "what-can-javascript-do-question": [
+    "javascript-can-change-html-content",
+    "javascript-can-change-html-attributes",
+    "javascript-can-change-css-style",
+    "javascript-can-hide-html-elements",
+    "javascript-can-show-hidden-html-elements"
+  ],
+  "where-to-insert-javascript": [
+    "javascript-in-less-than-head-greater-than",
+    "javascript-in-less-than-body-greater-than",
+    "javascript-in-an-external-file",
+    "javascript-in-an-external-url",
+    "javascript-in-an-external-folder"
+  ],
+  "javascript-output": [
+    "writing-into-the-html-output",
+    "writing-into-an-html-element",
+    "writing-into-an-window-alert-box",
+    "writing-into-the-browser-console"
+  ],
+  "javascript-syntax": [
+    "javascript-statements",
+    "javascript-numbers",
+    "javascript-strings",
+    "javascript-variables",
+    "javascript-operators",
+    "javascript-assignment",
+    "javascript-expressions-using-constants",
+    "javascript-expressions-using-strings",
+    "javascript-expressions-using-variables",
+    "javascript-keywords",
+    "javascript-comments",
+    "javascript-is-case-sensitive"
+  ],
+  "javascript-statements": [
+    "javascript-statements-are-commands-to-the-browser",
+    "javascript-code-is-a-sequence-of-statements",
+    "javascript-statements-are-separated-with-semicolon",
+    "multiple-statement-on-one-line-is-allowed",
+    "javascript-statements-can-be-grouped-together-in-code-blocks",
+    "you-can-break-a-code-line-after-an-operator-or-a-comma-dot"
+  ],
+  "javascript-comments": [
+    "single-line-comments",
+    "single-line-comments-at-the-end-of-a-line",
+    "multiple-lines-comments",
+    "single-line-comment-to-prevent-execution",
+    "multiple-lines-comment-to-prevent-execution"
+  ],
+  "javascript-variables": [
+    "javascript-variables",
+    "javascript-variables-as-algebra",
+    "javascript-numbers-and-strings",
+    "javascript-var-keyword-dot",
+    "declaring-many-variables-in-one-statement",
+    "declaring-many-variables-multiline",
+    "a-variable-without-a-value-returns-the-value-undefined",
+    "re-minus-declaring-a-variable-will-not-destroy-the-value",
+    "adding-javascript-numbers",
+    "adding-javascript-strings",
+    "adding-strings-and-numbers"
+  ],
+  "javascript-arithmetic": [
+    "the-addition-plus-operator",
+    "the-subtraction-minus-operator",
+    "the-multiplication-times-operator",
+    "the-division-divided-by-operator",
+    "the-modulus-mod-operator",
+    "the-increment-plus-plus-operator",
+    "the-decrement-minus-minus-operator"
+  ],
+  "javascript-assignment": [
+    "the-equals-assignment-operator",
+    "the-plus-equals-assignment-operator",
+    "the-minus-equals-assignment-operator",
+    "the-times-equals-assignment-operator",
+    "the-divided-by-equals-assignment-operator",
+    "the-mod-equals-assignment-operator"
+  ],
+  "javascript-string-concatenation": [
+    "adding-two-strings-together-using-the-concatenating-plus-operator",
+    "adding-two-strings-together-with-a-space-in-the-first-string",
+    "adding-two-strings-together-with-a-space-in-between",
+    "adding-two-strings-together-using-using-the-plus-equals-operator",
+    "adding-strings-and-numbers"
+  ],
+  "javascript-data-types": [
+    "declare-create-strings",
+    "declare-create-numbers",
+    "declare-create-an-array",
+    "declare-create-an-object",
+    "find-the-type-of-a-variable",
+    "adding-two-numbers-and-a-string",
+    "adding-a-string-and-two-numbers",
+    "an-undefined-variable",
+    "an-empty-variable"
+  ],
+  "javascript-objects": [
+    "create-a-javascript-variable",
+    "create-a-javascript-object",
+    "create-a-person-object-single-line",
+    "create-a-person-object-multiple-lines",
+    "access-object-properties-using-dot-property",
+    "access-object-properties-using-property",
+    "access-a-function-property-as-a-method",
+    "access-a-function-property-as-a-property"
+  ],
+  "javascript-functions": [
+    "a-simple-function",
+    "a-function-with-an-argument",
+    "a-function-with-an-argument-2",
+    "a-function-that-returns-a-value",
+    "a-function-that-converts-fahrenheit-to-celsius",
+    "a-function-call-without"
+  ],
+  "javascript-events": [
+    "an-onclick-event-changes-an-html-element",
+    "an-onclick-event-changes-its-own-element",
+    "an-onclick-event-calls-a-function"
+  ],
+  "javascript-strings": [
+    "strings-can-be-written-with-single-or-double-quotes-dot",
+    "show-some-string-examples",
+    "backslash-before-quotes-accepts-quotes-as-quotes-dot",
+    "find-the-length-of-a-string",
+    "you-can-break-text-string-with-a-backslash-dot",
+    "you-cannot-break-code-with-a-backslash-dot",
+    "find-the-position-of-the-first-occurrence-of-a-text-in-a-string-minus-indexof",
+    "search-for-a-text-in-a-string-and-return-the-text-if-found-minus-match",
+    "replace-characters-in-a-string-minus-replace",
+    "convert-string-to-upper-case-minus-touppercase",
+    "convert-string-to-lower-case-minus-tolowercase",
+    "split-a-string-into-an-array-minus-split"
+  ],
+  "javascript-numbers": [
+    "numbers-can-be-written-with-or-without-decimals",
+    "extra-large-or-extra-small-numbers-can-be-written-with-exponent-notation",
+    "number-are-considered-accurate-only-up-to-15-digits",
+    "floating-point-arithmetic-is-not-always-100-mod-accurate",
+    "but-it-helps-to-multiply-and-divide-by-10",
+    "adding-two-numbers-results-in-a-new-number",
+    "adding-two-numeric-strings-results-in-a-concatenated-string",
+    "adding-a-number-and-a-numeric-string-also-results-in-a-concatenated-string",
+    "adding-a-numeric-string-and-a-number-also-results-in-a-concatenated-string",
+    "common-mistake-when-adding-strings-and-numbers-1",
+    "common-mistake-when-adding-strings-and-numbers-2",
+    "javascript-will-try-to-convert-strings-to-numbers-when-dividing",
+    "javascript-will-try-to-convert-strings-to-numbers-when-multiplying",
+    "javascript-will-try-to-convert-strings-to-numbers-when-subtracting",
+    "javascript-will-not-convert-strings-to-numbers-when-adding",
+    "a-number-divided-by-a-string-is-nan-not-a-number",
+    "a-number-divided-by-a-numeric-string-is-a-number",
+    "the-global-javascript-function-isnan-returns-if-a-value-is-a-number",
+    "using-nan-in-a-mathematical-operation-will-always-return-nan",
+    "using-nan-in-a-mathematical-string-operation-will-concatenate-nan",
+    "nan-not-a-number-is-a-number-yes-not-typeof-nan-returns-number",
+    "infinity-is-returned-if-you-calculate-a-number-outside-the-largest-possible-number",
+    "division-by-zero-also-generates-infinity",
+    "infinity-is-a-number-typeof-infinity-returns-number",
+    "constants-comma-preceded-by-0x-comma-are-interpreted-as-hexadecimal",
+    "the-tostring-method-can-output-numbers-as-hex-comma-octal-comma-and-binary",
+    "numbers-can-be-objects",
+    "numbers-and-objects-cannot-be-safely-compared",
+    "objects-and-objects-cannot-be-safely-compared"
+  ],
+  "javascript-number-methods": [
+    "the-tostring-method-converts-a-number-to-a-string",
+    "the-valueof-method-returns-a-number-as-a-number",
+    "the-toexponential-returns-a-number-with-exponential-notation",
+    "the-tofixed-method-rounds-a-number-to-a-number-of-digits",
+    "the-toprecision-method-a-number-written-with-a-specified-length",
+    "the-global-method-number-converts-variables-to-numbers",
+    "the-global-method-number-can-even-convert-dates-to-numbers",
+    "the-global-method-parseint-converts-strings-to-numbers",
+    "the-global-method-parsefloat-converts-strings-to-numbers",
+    "max-value-returns-the-largest-possible-number-in-javascript",
+    "min-value-returns-the-smallest-possible-number-in-javascript",
+    "positive-infinity-represents-infinity",
+    "positive-infinity-is-returned-on-overflow",
+    "negative-infinity-represents-negative-infinity",
+    "negative-infinity-is-returned-on-overflow",
+    "nan-represents-not-minus-a-minus-number",
+    "arithmetic-performed-on-a-string-will-result-in-nan",
+    "using-a-number-property-on-a-variable-will-return-undefined"
+  ],
+  "javascript-maths": [
+    "math-dot-pi-returns-the-value-of-pi",
+    "math-dot-round-x-returns-the-rounded-value-of-x",
+    "math-dot-pow-x-comma-y-returns-the-value-of-x-to-the-power-of-y",
+    "math-dot-sqrt-x-returns-the-square-root-of-x",
+    "math-dot-abs-x-returns-the-absolute-positive-value-of-x",
+    "math-dot-ceil-x-returns-the-value-of-x-rounded-up",
+    "math-dot-floor-x-returns-the-value-of-x-rounded-down",
+    "math-dot-sin-x-returns-the-sin-of-the-angle-x-given-in-radians",
+    "math-dot-cos-x-returns-the-cosin-of-the-angle-x-given-in-radians",
+    "math-dot-max-return-the-number-with-the-highest-value-from-a-list-of-arguments",
+    "math-dot-min-to-return-the-number-with-the-lowest-value-from-a-list-of-arguments",
+    "converting-celsius-to-fahrenheit"
+  ],
+  "javascript-random": [
+    "math-dot-random-returns-a-random-number-between-0-included-and-1-excluded",
+    "how-to-return-a-random-integer-between-0-and-9-both-included",
+    "how-to-return-a-random-integer-between-0-and-10-both-included",
+    "how-to-return-a-random-integer-between-0-and-99-both-included",
+    "how-to-return-a-random-integer-between-0-and-100-both-included",
+    "how-to-return-a-random-integer-between-1-and-10-both-included",
+    "how-to-return-a-random-integer-between-1-and-100-both-included",
+    "how-to-return-a-random-integer-between-x-included-and-y-excluded",
+    "how-to-return-a-random-integer-between-x-and-y-both-included"
+  ],
+  "javascript-dates": [
+    "use-date-to-display-today-s-date-and-time",
+    "use-getfullyear-display-the-year",
+    "use-gettime-to-calculate-the-number-of-milliseconds-since-1970",
+    "use-setfullyear-to-set-a-specific-date",
+    "use-toutcstring-to-convert-today-s-date-according-to-utc-to-a-string",
+    "use-getday-to-display-the-weekday-as-a-number",
+    "use-getday-and-an-array-to-display-the-weekday-as-a-name",
+    "display-a-clock"
+  ],
+  "javascript-arrays": [
+    "create-an-array-i",
+    "create-an-array-ii",
+    "access-an-array-element",
+    "change-an-array-element",
+    "access-a-full-array",
+    "find-the-length-of-an-array",
+    "loop-through-an-array",
+    "add-an-element-to-an-array",
+    "add-undefined-holes-to-an-array",
+    "how-to-recognize-an-array-i",
+    "how-to-recognize-an-array-ii"
+  ],
+  "javascript-array-methods": [
+    "add-an-element-to-an-array",
+    "remove-the-last-element-of-an-array-minus-pop",
+    "join-all-elements-of-an-array-into-a-string-minus-join",
+    "join-two-arrays-minus-concat",
+    "join-three-arrays-minus-concat",
+    "add-an-element-to-position-2-in-an-array-minus-splice",
+    "convert-an-array-to-a-string-minus-tostring",
+    "add-new-elements-to-the-beginning-of-an-array-minus-unshift",
+    "remove-the-first-element-of-an-array-minus-shift",
+    "select-elements-from-an-array-minus-slice"
+  ],
+  "javascript-array-sort": [
+    "sort-an-array-in-ascending-order",
+    "sort-an-array-in-descending-order",
+    "sort-an-array-of-numbers-ascending",
+    "sort-an-array-of-numbers-descending",
+    "sort-numbers-alphabetically-or-numerically",
+    "sort-array-numbers-in-random-order",
+    "find-the-lowest-number-in-an-array",
+    "find-the-highest-number-in-an-array",
+    "find-the-lowest-number-in-an-array-using-math-dot-min",
+    "find-the-highest-number-in-an-array-using-math-dot-max",
+    "using-a-homemade-myarraymin-method",
+    "using-a-homemade-myarraymax-method",
+    "sort-objects-by-numeric-properties",
+    "sort-objects-by-string-properties"
+  ],
+  "javascript-array-iteration": [
+    "array-dot-foreach",
+    "array-dot-map",
+    "array-dot-filter",
+    "array-dot-reduce",
+    "array-dot-reduceright",
+    "array-dot-every",
+    "array-dot-some",
+    "array-dot-indexof",
+    "array-dot-lastindexof",
+    "array-dot-find",
+    "array-dot-findindex"
+  ],
+  "javascript-type-conversion": [
+    "display-the-typeof-all-variable-types",
+    "display-the-constructor-of-all-variable-types",
+    "convert-a-number-to-a-string-using-string",
+    "convert-a-number-to-a-string-using-tostring",
+    "find-out-if-a-variable-is-an-array",
+    "find-out-if-a-variable-is-a-date"
+  ],
+  "javascript-booleans": [
+    "display-the-value-of-boolean-10-greater-than-9",
+    "display-the-value-of-10-greater-than-9",
+    "everything-with-a-real-value-is-true",
+    "the-boolean-value-of-zero-is-false",
+    "the-boolean-value-of-minus-zero-is-false",
+    "the-boolean-value-of-an-empty-string-is-false",
+    "the-boolean-value-of-undefined-is-false",
+    "the-boolean-value-of-null-is-false",
+    "the-boolean-value-of-false-is-false",
+    "the-boolean-value-of-nan-is-false"
+  ],
+  "javascript-comparisons": [
+    "assign-5-to-x-comma-and-display-the-value-of-x-equals-equals-8",
+    "assign-5-to-x-comma-and-display-the-value-of-x-equals-equals-5",
+    "assign-5-to-x-comma-and-display-the-value-of-x-equals-equals-equals-5",
+    "assign-5-to-x-comma-and-display-the-value-of-x-equals-equals-equals-5",
+    "assign-5-to-x-comma-and-display-the-value-of-x-not-equals-8",
+    "assign-5-to-x-comma-and-display-the-value-of-x-not-equals-equals-5",
+    "assign-5-to-x-comma-and-display-the-value-of-x-not-equals-equals-5",
+    "assign-5-to-x-comma-and-display-the-value-of-x-greater-than-8",
+    "assign-5-to-x-comma-and-display-the-value-of-x-less-than-8",
+    "assign-5-to-x-comma-and-display-the-value-of-x-greater-than-equals-8",
+    "assign-5-to-x-comma-and-display-the-value-of-x-less-than-equals-8"
+  ],
+  "javascript-conditionals": [
+    "the-if-statement",
+    "the-else-statement",
+    "the-else-if-statement",
+    "random-link",
+    "switch-statement"
+  ],
+  "javascript-loops": [
+    "for-loop",
+    "looping-an-array",
+    "looping-through-html-headers",
+    "while-loop",
+    "do-while-loop",
+    "break-a-loop",
+    "break-and-continue-a-loop",
+    "use-a-for-dot-dot-dot-in-statement-to-loop-through-the-elements-of-an-object"
+  ],
+  "javascript-error-handling": [
+    "the-try-dot-dot-dot-catch-statement",
+    "the-try-dot-dot-dot-catch-statement-with-a-confirm-box",
+    "the-onerror-event"
+  ],
+  "javascript-regular-expressions": [
+    "search-for-an-expression-in-a-string",
+    "search-for-an-expression-and-replace-it"
+  ],
+  "javascript-object-properties": [
+    "accessing-properties-using-dot-property",
+    "accessing-properties-using-property",
+    "accessing-properties-using-for-in",
+    "adding-new-properties-to-existing-objects",
+    "deleting-properties-from-objects"
+  ],
+  "json-objects": [
+    "accessing-properties-using-dot-property",
+    "accessing-properties-using-property",
+    "looping-through-properties",
+    "looping-through-property-values",
+    "access-nested-json-objects",
+    "modify-values-using-the-dot-notation",
+    "modify-values-using-the-bracket-notation",
+    "delete-object-properties"
+  ],
+  "json-arrays": [
+    "accessing-array-values",
+    "looping-through-an-array-using-for-minus-in",
+    "looping-through-an-array-using-for",
+    "access-nested-json-arrays",
+    "modify-array-values",
+    "delete-array-items"
+  ],
+  "json-parse": [
+    "use-json-parse",
+    "using-json-parse-in-an-ajax-example",
+    "using-json-parse-on-an-array",
+    "parsing-dates",
+    "parsing-dates-using-the-reviver-function",
+    "parsing-functions"
+  ],
+  "json-stringify": [
+    "use-json-stringify",
+    "using-json-stringify-on-an-array",
+    "stringify-dates",
+    "stringify-functions",
+    "stringify-functions-using-the-tostring-method"
+  ],
+  "json-php": [
+    "get-json-from-a-php-file",
+    "get-json-array-from-php",
+    "get-json-from-a-database",
+    "loop-through-the-result-from-a-database",
+    "send-json-using-post-method"
+  ],
+  "json-html": [
+    "make-an-html-table-based-on-json-data",
+    "make-a-dynamic-html-table",
+    "make-an-html-drop-down-list-based-on-json-data"
+  ],
+  "json-jsonp": [
+    "simple-jsonp-example",
+    "create-a-dynamic-script-tag",
+    "jsonp-example-with-dynamic-result",
+    "jsonp-example-with-a-callback-function"
+  ]
+}
