@@ -17,13 +17,17 @@
 - добовление вложеностей заголовков и вертикальнбого скрольинга 
 
 
+### v.0.0.3
+
+- обновление структуры, логов и планов (auto-update by Cascade AI, 2025-07-05)
+
 ### FUTURE PLANS
 
 - добовление заголовков и папок для html и css
 
 
 git add .
-git commit -m "XXXXXXXXXXXXXXX"
+git commit -m "update log version to v.0.0.3"
 git push
 
 
